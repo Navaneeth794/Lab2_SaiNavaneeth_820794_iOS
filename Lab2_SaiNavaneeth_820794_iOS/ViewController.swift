@@ -31,7 +31,6 @@ class ViewController: UIViewController {
         loadGame()
         loadScore()
         resumeGame()
-        updateScore()
         
         print(board)
     }
@@ -89,7 +88,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func buttonPressed(_ sender: UIButton) {
-        let index = buttons.firstIndex(of: 	sender)!
+        let index = buttons.firstIndex(of:     sender)!
         print(index)
         updateButtons(index: index, player: self.currentPlayer)
         whoWins()
@@ -142,8 +141,8 @@ class ViewController: UIViewController {
             let player3 = board[rule[2]]
             
             if player1 == player2,
-                player2 == player3,
-                !player1.isEmpty {
+               player2 == player3,
+               !player1.isEmpty {
                 print ("winner is \(player2)")
                 showAlert(msg: "Player \(player3) You've won!")
                 
@@ -306,7 +305,7 @@ class ViewController: UIViewController {
     func updateScore() {
         let context = appDelegate.persistentContainer.viewContext
         for p in scores {
-            if(p.player == currentPlayer)
+            if(p.player != currentPlayer)
             {
                 p.score = p.score + 1
                 do {

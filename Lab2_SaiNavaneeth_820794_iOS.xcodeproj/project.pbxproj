@@ -12,11 +12,11 @@
 		A7D632C727A0CBE400B89C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D632C627A0CBE400B89C7B /* ViewController.swift */; };
 		A7D632CA27A0CBE400B89C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D632C827A0CBE400B89C7B /* Main.storyboard */; };
 		A7D632CD27A0CBE400B89C7B /* Lab2_SaiNavaneeth_820794_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7D632CB27A0CBE400B89C7B /* Lab2_SaiNavaneeth_820794_iOS.xcdatamodeld */; };
-		A7D632CF27A0CBE800B89C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D632CE27A0CBE800B89C7B /* Assets.xcassets */; };
 		A7D632D227A0CBE800B89C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D632D027A0CBE800B89C7B /* LaunchScreen.storyboard */; };
 		A7D632F927A0F2D500B89C7B /* Game+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D632F327A0F2D500B89C7B /* Game+CoreDataClass.swift */; };
 		A7D632FB27A0F2D500B89C7B /* Score+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D632F527A0F2D500B89C7B /* Score+CoreDataClass.swift */; };
 		A7D632FD27A0F2D500B89C7B /* Move+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D632F727A0F2D500B89C7B /* Move+CoreDataClass.swift */; };
+		F15E205A27A118AA00705746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15E205927A118AA00705746 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,12 +26,12 @@
 		A7D632C627A0CBE400B89C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7D632C927A0CBE400B89C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7D632CC27A0CBE400B89C7B /* Lab2_SaiNavaneeth_820794_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab2_SaiNavaneeth_820794_iOS.xcdatamodel; sourceTree = "<group>"; };
-		A7D632CE27A0CBE800B89C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7D632D127A0CBE800B89C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7D632D327A0CBE800B89C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7D632F327A0F2D500B89C7B /* Game+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A7D632F527A0F2D500B89C7B /* Score+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Score+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A7D632F727A0F2D500B89C7B /* Move+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Move+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F15E205927A118AA00705746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Lab1_SaiNavaneeth_820794_iOS/Lab1_SaiNavaneeth_820794_iOS/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +71,10 @@
 				A7D632C427A0CBE400B89C7B /* SceneDelegate.swift */,
 				A7D632C627A0CBE400B89C7B /* ViewController.swift */,
 				A7D632C827A0CBE400B89C7B /* Main.storyboard */,
-				A7D632CE27A0CBE800B89C7B /* Assets.xcassets */,
 				A7D632D027A0CBE800B89C7B /* LaunchScreen.storyboard */,
 				A7D632D327A0CBE800B89C7B /* Info.plist */,
 				A7D632CB27A0CBE400B89C7B /* Lab2_SaiNavaneeth_820794_iOS.xcdatamodeld */,
+				F15E205927A118AA00705746 /* Assets.xcassets */,
 			);
 			path = Lab2_SaiNavaneeth_820794_iOS;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7D632D227A0CBE800B89C7B /* LaunchScreen.storyboard in Resources */,
-				A7D632CF27A0CBE800B89C7B /* Assets.xcassets in Resources */,
+				F15E205A27A118AA00705746 /* Assets.xcassets in Resources */,
 				A7D632CA27A0CBE400B89C7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
